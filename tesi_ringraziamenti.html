@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ringraziamenti</title>
+  <style>
+    body {
+      font-family: 'Georgia', 'Times New Roman', serif;
+      background: #f8fbff;
+      color: #2a2a2a;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background: linear-gradient(135deg, #d9ecff, #c2e0f9);
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+      color: #1e3a5f;
+    }
+    header p {
+      margin-top: 0.5rem;
+      color: #345678;
+      font-style: italic;
+    }
+    .carousel {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch;
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .card {
+      flex: 0 0 90%;
+      max-width: 500px;
+      margin: 0 auto;
+      scroll-snap-align: center;
+      background: #ffffff;
+      border-radius: 20px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+      padding: 2rem;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.03);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #1e3a5f;
+      font-size: 1.5rem;
+    }
+    .card p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #3d5870;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #d9ecff;
+      font-size: 0.95rem;
+      color: #1e3a5f;
+    }
+    footer strong {
+      display: block;
+      margin-top: 0.3rem;
+      font-size: 1.05rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Ringraziamenti</h1>
+    <p>Grazie a tutte le persone che hanno reso questo percorso speciale ❤️</p>
+  </header>
+
+  <section class="carousel">
+    <div class="card">
+      <h3>Persona 1</h3>
+      <p>Per il supporto costante e i consigli preziosi.</p>
+    </div>
+    <div class="card">
+      <h3>Persona 2</h3>
+      <p>Per la pazienza e l’affetto dimostrati lungo il cammino.</p>
+    </div>
+    <div class="card">
+      <h3>Persona 3</h3>
+      <p>Per aver creduto in me fin dall’inizio.</p>
+    </div>
+    <!-- Aggiungi altre card qui -->
+  </section>
+
+  <footer>
+    <p>Iris Panaro</p>
+    <strong>Laurea Magistrale in Ingegneria Informatica</strong>
+    <p>03/10/2025</p>
+  </footer>
+</body>
+</html>
